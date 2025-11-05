@@ -8,7 +8,7 @@ class Kctx < Formula
   depends_on "python@3.11"
 
   def install
-    bin.install "kctx.py" => "kctx"
+    bin.install "kctx/main.py" => "kctx"
   end
 
   test do
