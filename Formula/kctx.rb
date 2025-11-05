@@ -1,8 +1,8 @@
 class Kctx < Formula
   desc "Kubernetes context switcher CLI written in Python"
   homepage "https://github.com/devkishanjoshi/kctx"
-  url "https://github.com/devkishanjoshi/homebrew-kctx/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/devkishanjoshi/homebrew-kctx/releases/tag/1.0.1"
+  sha256 "c2f977411fe8db109e8dd3f335607ed8ac26209aef07b7636374664550984cd8"
   license "MIT"
 
   depends_on "python@3.11"
